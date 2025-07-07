@@ -48,6 +48,11 @@ class ShipwireConnector
      */
     static $handlerStack;
 
+    /**
+     * @var Client
+     */
+    protected $client;
+
     private function __construct()
     {
     }
